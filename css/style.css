@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+p,div,h1,h2,h3,h4,h5,h6,a,ul,li,a,img{
+    padding: 0 ;
+    margin: 0;
+}
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* =============================== */
+/* navbar css start */
+.navbar-brand{
+    margin: 0 20px !important;
+}
+.navbar-nav{
+    flex-grow: 1;
+}
+a.nav-link{
+font-family: "Plus Jakarta Sans";
+font-size: 14px !important;
+font-weight: 400;
+line-height: 17.64px;
+
+color: rgba(25, 22, 25, 1);
+padding: 0px !important;
+
+}
+
+.nav-right{
+    margin-right: 50px !important;
+    padding: 0px !important;
+}
+
+
+.headerTopBtn{
+font-family: "Plus Jakarta Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 17.64px;
+padding: 10px 50px;
+
+}
+@media(max-width:1024px){
+    .nav-right{
+        margin-right: 40px !important;
+        padding: 0px !important;
+    }
+    .navbar-brand{
+        margin: 0 !important;
+    }
+    .align-items-center {
+        align-items: start !important;
+    }
+}
+/* navbar css end */
+
+/* bannar css start  */
+
+.bannarhight{
+    height: 550px;
+    position: relative;
+}
+/* .bannarhight::after {
+	content: url('/figmaff/imgf/Mask\ group.png');
+	display: block;
+	position: absolute;
+	z-index: 1000;
+	width: 90%;
+	height: 400px;
+	left:50%;
+	top: 70%;
+	transform: translateX(-50%);
+
+} */
+
+.bannarHeader{
+font-family: "Plus Jakarta Sans";
+font-size: 40px;
+font-weight: 700;
+line-height: 55.44px;
+text-align: center;
+
+
+}
+.bannrP{
+    font-family: "Plus Jakarta Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+
+}
+.bannarImg {
+	/* margin-top: -93px; */
+	position: absolute;
+	bottom: -41%;
+	left: 50%;
+    transform: translateX(-50%);
+	width: 90% !important;
+}
+.bannarBtn{
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-weight: 700;
+line-height: 20.16px;
+letter-spacing: 0.01em;
+text-align: left;
+margin: 15px 0;
+text-decoration: none;
+padding: 14px 20px 14px 20px;
+  
+}
+
+/* our coustomar css start */
+.coustomarSection{
+    margin-top: 18rem !important;
+}
+
+/* our coustomar css end */
+
+
+
+/* team css start */
+.teamtopp{
+font-family:" Plus Jakarta Sans";
+font-size: 28px;
+font-weight: 400;
+line-height: 35.28px;
+text-align: left;
+
+}
+.teamp{
+font-family:" Plus Jakarta Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+padding-right: 150px;
+
+}
+/* team css end */
+
+/*  grid_img css start */
+/*  grid_img css end */
+
+
+
+.serviceP {
+	font-family: "Plus Jakarta Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+	padding-right: 9px;
+}
+
+/* service css star  */
+.serviceHead{
+font-family: "Plus Jakarta Sans";
+font-size: 28px;
+font-weight: 600;
+line-height: 35.28px;
+text-align: left;
+}
+.servicePinfo p{
+    margin: 0 40px !important;
+}
+.serviceSubHead{
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+}
+
+.serviceP {
+	font-family: "Plus Jakarta Sans";
+	font-size: 14px;
+	font-weight: 402;
+	line-height: 23px;
+	text-align: left;
+	padding-right: 164px;
+}
+/* service css end */
+
+
+/* tesxtimonial css start */
+    .cardtextimonial{
+        position: absolute;
+        bottom: 0;
+        left: -50px;
+        width: 100%;
+    }
+   
+    .textionialBg{
+        background-image: url(../imgf/vdio.png);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }
+
+    .logoVideo {
+        position: absolute;
+        transform: translate(-50% ,-50%);
+        width: 40px;
+        height: 40px;
+        top: 50%;
+        left: 50%;
+        animation: Colorr 3s infinite;
+        box-sizing: content-box;
+        border-radius: 50%;
+        opacity: 1;
+        z-index: 1000;
+
+    }
+    @keyframes Colorr{
+        
+       1%{
+        background-color: rgb(47, 218, 240);
+        border-radius: 50%;
+        padding: 1px;
+        height: 40px;
+        width: 40px;
+        opacity: 1;
+        }
+       50%{
+        background-color: rgb(47, 218, 240);
+        border-radius: 50%;
+        padding: 10px;
+        opacity: 50%;
+        }
+        80%{
+        background-color: rgb(47, 218, 240);
+        border-radius: 50%;
+        padding: 20px;
+        opacity: 30%;
+        }
+       100%{
+        background-color: rgb(47, 218, 240);
+        border-radius: 50%;
+        padding: 30px;
+        opacity: 0%;
+        } 
+    }
+
+    .textImonialText{
+    font-family:" Plus Jakarta San"s;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    
+
+    }
+/* tesxtimonial css end */
+
+
+/* laptop css start */
+.laptopP1{
+font-family: Plus Jakarta Sans;
+font-size: 28px;
+font-weight: 400;
+line-height: 35.28px;
+padding-right: 360px;
+
+
+}
+.laptopP2{
+    font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding-right: 266px;
+margin:20px 0  33px 0;
+}
+.laptopimgg{
+  
+}
+/* laptop css end */
+
+/* card css start  */
+.c-title{
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+}
+.c-text{
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+
+}
+/* card css end */
+.cardmain{
+   
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+        margin-top: 180px;
+    
+}
+.card{
+    margin-top: -195px !important;
+    --bs-card-border-color: none !important;
+}
+
+/* card css start */
+
+
+/* card css end */
+
+.footerBgImg{
+    background-image: url(../imgf/bkkkk.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+       
+}
+.footerul{
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 40px;
+background: rgba(124, 124, 124, 1);
+
+
+
+}
+
+/* bannar css end  ====================*/
+
+@media(max-width:992px) {
+  .bannarImg {
+	/* margin-top: -93px; */
+	position: absolute;
+	bottom: -33%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 90% !important;
+}
+}
+@media(max-width:768px) {
+    .bannarImg {
+        position: absolute;
+        bottom: -20% !important;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90% !important;
+    }
+    .coustomarSection {
+        margin-top: 9rem !important;
+    }
+}
+@media(max-width:576px) {
+
+    .bannarhight {
+        height: 401px;
+    }
+
+    .bannarHeader {
+        font-family: "Plus Jakarta Sans";
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 55.44px;
+        text-align: center;
+    }
+    .bannarImg {
+        position: absolute;
+        bottom: -15% !important;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90% !important;
+    }
+
+    .coustomarSection {
+        margin-top: 5rem !important;
+    }
+    
+}
+@media(max-width:300px) {
+    .bannarImg {
+        position: absolute;
+        bottom: -15% !important;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90% !important;
+    }
+    .coustomarSection{
+        margin-top: 10rem !important;
+    }
+}
+
+
+
+
+
+/* midia quiry */
